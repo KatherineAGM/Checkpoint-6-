@@ -301,7 +301,7 @@ Las bases de datos SQL se basan en un esquema de datos estricto y predefinido co
 **Escalabilidad**
 Es importante que los administradores de bases de datos planifiquen el crecimiento y la expansión de sus sistemas de bases de datos; este es otro punto claro de diferenciación entre las bases de datos SQL y NoSQL.
 
-<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/basesdatos.png" img width="500px">
+<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/basesdatos.png" img width="800px">
 
 ## ¿Qué es una API?
 
@@ -400,7 +400,7 @@ es una popular plataforma de colaboración para el desarrollo de APIs (Interface
 
 Asi se ve la **interfaz de usurio de poastman:** 
 
-<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/postman.png" img width="500px">
+<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/postman.png" img width="800px">
 
 **Cómo utilizar Postman**
 En primer lugar, para utilizar la versión gratuita de Postman, tendrás que crear una cuenta dentro de la plataforma. Puedes crearla desde tu Gmail, SSO o el email que desees. La cuenta gratuita te permite invitar a máximo dos personas para que puedan trabajar en el mismo programa.
@@ -487,7 +487,8 @@ Tenemos la clase ```Parking```. Dentro de ésta tenemos un método ```estacionar
 Lo ideal sería que nuestro método me permita permita recibir todo tipo de vehículos para estacionarlos, primero por reutilización del código, ya que es muy parecido estacionar uno u otro vehículo, pero además porque así si mañana el mercado trae otro tipo de vehículos, como una van, todoterreno hibrido, o una nave espacial, mi software sea capaz de aceptarlos sin tener que modificar la clase ```Parking```.
 
 Gracias al ```polimorfismo```, cuando declaro la función ```estacionar()``` puedo decir que recibe como parámetro un objeto de la clase ```"Vehiculo"``` y el compilador me aceptará no solamente vehículos genéricos, sino todos aquellos objetos que hayamos creado que hereden de la clase Vehículo, osea, coches, motos, buses, etc. Esa relajación del sistema de tipos para aceptar una gama de objetos diferente es lo que llamamos polimorfismo.
-<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/poliformismo.gif" img width="500px">
+
+<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/poliformismo.gif" img width="600px">
 
 ## ¿Qué es un método dunder?
 
@@ -495,7 +496,7 @@ Es un término coloquial y bastante común en la comunidad de Python para referi
 
 Estos métodos también se conocen como **métodos mágicos** o **métodos especiales**. Tienen una importancia crucial en Python porque implementan funcionalidades fundamentales del lenguaje y permiten que tus objetos se comporten de manera consistente con los tipos built-in de Python.
 
-<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/Dunder%20.png" img width="500px">
+<img src="https://github.com/KatherineAGM/Checkpoint-6-/blob/main/images/Dunder%20.png" img width="700px">
 
 #### Características principales de los métodos dunder:
 
